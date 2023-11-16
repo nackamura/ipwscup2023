@@ -268,3 +268,4 @@ All steps in the competition can be performed in some sample shell scripts. Run 
 3. `bash test-3anonymize.sh` performs sample anonymizations using `rr.py` and `lap.py` and generates perturbed data `C.csv`. The utility score will be reported here. 
 4. `bash test-4pick.sh` is performed by the judge and stores the sampled records `D.csv` and the corresponding indexes `X.csv`. 
 5. `test-5rlink.sh` performs a record linkage attack to the target C.csv and evaluates the privacy score.
+
